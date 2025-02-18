@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+Yelp-20250205T224043Z-003.zip
+user-002.parquet
+review-001.json
+CSV
+dataMaps
+end
+CSV.rar
+=======
+data/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+>>>>>>> 4a99a88ec06ba326c866c8d4af684d267205cf24
