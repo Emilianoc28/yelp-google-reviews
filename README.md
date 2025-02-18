@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Análisis de Datos de Google Maps
 
 Este proyecto se centra en el procesamiento y análisis de datos de reseñas de Google Maps. Se han combinado múltiples archivos CSV que contienen información de usuarios, reseñas y calificaciones de diferentes ubicaciones.
@@ -26,6 +27,8 @@ Este proceso ha permitido estructurar los datos de manera que puedan ser utiliza
 
 Si deseas contribuir o realizar análisis adicionales, puedes utilizar los archivos CSV procesados dentro del proyecto.
 
+=======
+>>>>>>> 4a99a88ec06ba326c866c8d4af684d267205cf24
 
 
 # <h1 align="center">**`Insight Labs`**</h1>
@@ -178,4 +181,8 @@ Porque en el mundo de las inversiones, el conocimiento es la clave del éxito.
     <td align="center"><a href="https://www.linkedin.com/"><img src="Imagenes/lkd.png" alt="LinkedIn" width="40"/></a></td>
     <td align="center"><a href="https://www.linkedin.com/"><img src="Imagenes/lkd.png" alt="LinkedIn" width="40"/></a></td>
   </tr>
+<<<<<<< HEAD
 </table>
+=======
+</table>
+>>>>>>> 4a99a88ec06ba326c866c8d4af684d267205cf24
