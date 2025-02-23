@@ -147,3 +147,54 @@ def data_summ(df, title=None):
     print("=====================================")
 
     return df_info
+def calculate_original_memory_usage(main_folder_path):
+    '''
+    Function to calculate the total amount of memory usage
+    by original dataframes files.
+
+    Parameters:
+    - main_folder_path: Path to the main folder containing original dataframe files.
+
+    Returns:
+    - Total memory usage in megabytes.
+    '''
+
+    # Initialize size variable to store total memory usage
+    total_size = 0 
+
+    # Loop through each DataFrame in the list
+    for file_name in os.listdir(main_folder_path):
+
+        if file_name.endswith('.json') or file_name.endswith('.pkl'):
+            # Get the size of the file in megabytes and add to the total size
+            file_path = os.path.join(main_folder_path, file_name)
+            total_size += os.path.getsize(file_path)
+
+    # Return the total memory usage
+    return total_size
+
+
+def calculate_parquet_memory_usage(main_folder_path):
+    '''
+    Function to calculate the total amount of memory usage
+    by parquet files.
+
+    Parameters:
+    - main_folder_path: Path to the main folder containing parquet files.
+
+    Returns:
+    - Total memory usage in megabytes.
+    '''
+# Initialize size variable to store total memory usage
+    total_size = 0 
+
+    # Loop through each DataFrame in the list
+    for file_name in os.listdir(main_folder_path):
+
+        if file_name.endswith('.parquet'):
+            # Get the size of the file in megabytes and add to the total size
+            file_path = os.path.join(main_folder_path, file_name)
+            total_size += os.path.getsize(file_path)
+
+    # Return the total
+    return total_size
