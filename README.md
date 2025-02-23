@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Análisis de Datos de Google Maps
 
 Este proyecto se centra en el procesamiento y análisis de datos de reseñas de Google Maps. Se han combinado múltiples archivos CSV que contienen información de usuarios, reseñas y calificaciones de diferentes ubicaciones.
@@ -23,12 +22,49 @@ Este proyecto se centra en el procesamiento y análisis de datos de reseñas de 
 ## Conclusiones
 Este proceso ha permitido estructurar los datos de manera que puedan ser utilizados para futuros análisis y visualizaciones. Se pueden realizar estudios adicionales para detectar tendencias y patrones en las reseñas.
 
----
 
-Si deseas contribuir o realizar análisis adicionales, puedes utilizar los archivos CSV procesados dentro del proyecto.
 
-=======
->>>>>>> 4a99a88ec06ba326c866c8d4af684d267205cf24
+📦 yelp-google-reviews
+│── 📄 README.md                 # Descripción del proyecto, instrucciones y equipo
+│── 📄 requirements.txt          # Librerías necesarias para el proyecto
+│
+├── 📂 data                      # Datos del proyecto
+│   ├── 📂 raw                   # Datos en bruto (sin procesar)
+│   ├── 📂 processed             # Datos limpios y transformados
+│   ├── 📂 external              # Datos de fuentes externas
+│   ├── 📄 data_dictionary.md    # Diccionario de datos y explicaciones
+│
+├── 📂 notebooks                 # Notebooks Jupyter
+│   ├── 📄 01_EDA.ipynb          # Análisis exploratorio de datos
+│   ├── 📄 02_Feature_Selection.ipynb  # Selección de características
+│   ├── 📄 03_Model_Training.ipynb  # Entrenamiento de modelos
+│   ├── 📄 04_Model_Evaluation.ipynb  # Evaluación y métricas de modelos
+│
+├── 📂 src                       # Código fuente del proyecto
+│   ├── 📂 data_preprocessing    # Scripts de limpieza y transformación de datos
+│   ├── 📂 models                # Scripts de entrenamiento y evaluación de modelos
+│   ├── 📂 visualization         # Scripts para generar gráficos y visualizaciones
+│   ├── 📂 api                   # Código de la API (FastAPI o Flask)
+│
+├── 📂 app                       # Aplicación final o dashboard
+│   ├── 📄 app.py                # Código principal de la aplicación
+│   ├── 📂 static                # Archivos estáticos (CSS, imágenes, etc.)
+│   ├── 📂 templates             # Plantillas HTML (si es necesario)
+│
+├── 📂 reports                   # Documentación y reportes
+│   ├── 📄 final_report.pdf      # Informe final del proyecto
+│   ├── 📄 presentation.pptx     # Presentación del proyecto
+│   ├── 📄 results.md            # Resumen de los resultados obtenidos
+│
+├── 📂 tests                     # Pruebas y validaciones
+│   ├── 📄 test_data_processing.py  # Pruebas de limpieza de datos
+│   ├── 📄 test_model.py         # Pruebas de modelos de ML
+│   ├── 📄 test_api.py           # Pruebas de la API
+│
+└── 📂 docs                      # Documentación técnica
+    ├── 📄 project_overview.md   # Descripción técnica del proyecto
+    ├── 📄 methodology.md        # Explicación de la metodología utilizada
+    ├── 📄 team.md               # Información sobre los miembros del equipo
 
 
 # <h1 align="center">**`Insight Labs`**</h1>
@@ -181,8 +217,4 @@ Porque en el mundo de las inversiones, el conocimiento es la clave del éxito.
     <td align="center"><a href="https://www.linkedin.com/"><img src="Imagenes/lkd.png" alt="LinkedIn" width="40"/></a></td>
     <td align="center"><a href="https://www.linkedin.com/"><img src="Imagenes/lkd.png" alt="LinkedIn" width="40"/></a></td>
   </tr>
-<<<<<<< HEAD
-</table>
-=======
-</table>
->>>>>>> 4a99a88ec06ba326c866c8d4af684d267205cf24
+
