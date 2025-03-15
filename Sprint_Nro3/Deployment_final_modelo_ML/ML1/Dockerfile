@@ -18,4 +18,5 @@ RUN python -m spacy download en_core_web_sm
 EXPOSE 8501
 
 # Comando para ejecutar la aplicación
-CMD [streamlit, run, ML1.py, --server.port=8501, --server.address=0.0.0.0]
+CMD ["streamlit", "run", "/app/ML1.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
