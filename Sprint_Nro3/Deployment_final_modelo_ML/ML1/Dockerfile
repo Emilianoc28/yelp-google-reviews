@@ -1,11 +1,11 @@
 # Usar una imagen base con Python
 FROM python:3.9
 
-# Definir el directorio de trabajo dentro del contenedor
-WORKDIR app
+# Definir el directorio de trabajo en el contenedor
+WORKDIR /ML1
 
-# Copiar los archivos del proyecto al contenedor
-COPY . app
+# Copiar todos los archivos al contenedor
+COPY . /ML1
 
 # Instalar dependencias
 RUN pip install --no-cache-dir -r requirements.txt
@@ -18,5 +18,5 @@ RUN python -m spacy download en_core_web_sm
 EXPOSE 8501
 
 # Comando para ejecutar la aplicación
-CMD ["streamlit", "run", "/app/ML1.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "ML1.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
