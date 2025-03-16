@@ -14,14 +14,14 @@ from scripts.load import load_to_bigquery
 default_args = {
     "owner": "airflow",
     "start_date": datetime(2024, 7, 10),
-    "retries": 3,
+    "retries": 2,
 }
 
 dag = DAG(
     "etl_yelp_maps",
     default_args=default_args,
     description="Pipeline ETL para Yelp y Google Maps con Airflow",
-    schedule_interval="*/3 * * * * ",
+    schedule_interval="*/7 * * * * ",
     catchup=False,
 )
 
